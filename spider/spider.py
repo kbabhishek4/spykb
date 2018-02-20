@@ -222,4 +222,3 @@ class Spider(object):
 		with open(self.file_dir + '/' + self.file_name + '.json', 'a') as f:
 			f.write(json.dumps(data, sort_keys = True, indent = 4))
 			f.write(',')
-			f.close()
