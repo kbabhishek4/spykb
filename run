@@ -1,0 +1,6 @@
+#!/bin/bash
+# Uncomment this to run in the background
+#nohup python3 run.py start $1 > $1.log 2>$1.err &
+
+# comment this to run in the background
+python3 run.py start $1
